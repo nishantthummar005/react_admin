@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import BlogContext from "./blogContext";
 import swal from "sweetalert";
+require('dotenv').config();
 
 const BlogState = (props) => {
     const [allBlog, blogData] = useState([])

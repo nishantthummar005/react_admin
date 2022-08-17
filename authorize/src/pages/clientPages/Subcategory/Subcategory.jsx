@@ -9,6 +9,7 @@ import adminContext from '../../../context/auth/adminContext';
 import UpdateData from './UpdateData';
 import ShowData from './ShowData';
 import { useForm } from 'react-hook-form';
+require('dotenv').config();
 
 const Subcategory = () => {
     const [categoryAllData, setcategoryAllData] = useState([]);   // main category

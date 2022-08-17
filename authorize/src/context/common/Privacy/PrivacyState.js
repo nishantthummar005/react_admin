@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import PrivacyContext from "./privacyContext";
 import swal from "sweetalert";
+require('dotenv').config();
 
 const PrivacyState = (props) => {
     const [allPrivacy, privacyData] = useState([])

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import BannerContext from "./bannerContext";
 import swal from "sweetalert";
+require('dotenv').config();
 
 const BannerState = (props) => {
     const [allBanner, bannerData] = useState([])

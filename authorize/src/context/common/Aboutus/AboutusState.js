@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import AboutusContext from "./aboutusContext";
 import swal from "sweetalert";
+require('dotenv').config();
 
 const AboutusState = (props) => {
     const [allAbout, aboutusData] = useState([])

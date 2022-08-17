@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import ContactusContext from "./contactusContext";
 import swal from "sweetalert"; 
+require('dotenv').config();
 
 const ContactusState = (props) => {
     const [allContact, contactusData] = useState([])

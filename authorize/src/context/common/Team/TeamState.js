@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import TeamContext from "./teamContext";
 import swal from "sweetalert";
+require('dotenv').config();
 
 const TeamState = (props) => {
     const [allTeam, teamData] = useState([])

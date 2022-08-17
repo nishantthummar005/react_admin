@@ -8,6 +8,7 @@ import adminContext from '../../../context/auth/adminContext';
 import UpdateData from './UpdateData';
 import ShowData from './ShowData';
 import ReactSummernote from 'react-summernote';
+require('dotenv').config();
 
 const Aboutus = () => {
     const [getSummerval, setSummerval] = useState('');

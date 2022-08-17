@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import AdminContext from "./adminContext";
 import { useHistory } from "react-router-dom";
-import swal from "sweetalert";
+import swal from "sweetalert"; 
+require('dotenv').config();
 
 const AdminState = (props) => {
     const history = useHistory();

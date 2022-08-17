@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import CategoryContext from "./categoryContext";
 import swal from "sweetalert";
+require('dotenv').config();
 
 const CategoryState = (props) => {
     const [allCategory, categoryData] = useState([])

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import GalleryContext from "./galleryContext";
 import swal from "sweetalert";
+require('dotenv').config();
 
 const GalleryState = (props) => {
     const [allGallery, galleryData] = useState([])

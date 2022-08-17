@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import TermsContext from "./termsContext";
 import swal from "sweetalert";
+require('dotenv').config();
 
 const TermsState = (props) => {
     const [allTerms, termsData] = useState([])

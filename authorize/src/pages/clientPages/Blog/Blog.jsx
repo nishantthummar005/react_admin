@@ -9,6 +9,7 @@ import UpdateData from './UpdateData';
 import ShowData from './ShowData';
 import { useForm } from 'react-hook-form';
 import ReactSummernote from 'react-summernote';
+require('dotenv').config();
 
 const Blog = () => {
     const [getSummerval, setSummerval] = useState('');

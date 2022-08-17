@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import ReviewContext from "./reviewContext";
 import swal from "sweetalert";
+require('dotenv').config();
 
 const ReviewState = (props) => {
     const [allReview, reviewData] = useState([])

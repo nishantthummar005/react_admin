@@ -6,6 +6,7 @@ import Breadcrumb from '../../../components/admin/breadcrumb';
 import swal from "sweetalert";
 import contactusContext from '../../../context/common/Contact/contactusContext';
 import adminContext from "../../../context/auth/adminContext";
+require('dotenv').config();
 
 function Contactus() {
     const [contactAllData, setcontactAllData] = useState([]);

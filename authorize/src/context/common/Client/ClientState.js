@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import ClientContext from "./clientContext";
 import swal from "sweetalert";
+require('dotenv').config();
 
 const ClientState = (props) => {
     const [allClient, clientData] = useState([])

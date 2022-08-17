@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import VideoContext from "./videoContext";
 import swal from "sweetalert";
+require('dotenv').config();
 
 const VideoState = (props) => {
     const [allVideo, videoData] = useState([])
