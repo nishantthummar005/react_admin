@@ -9,7 +9,7 @@ const fs = require('fs');    // file system
 
 
 const storageEngine = multer.diskStorage({
-    destination: './public/upload/team/',
+    destination: './authorize/public/upload/team/',
     filename: function (req, file, callback) {
         // callback(null, file.fieldname + '-' + Date.now() + path.extname(file.originalname));  // if you want to give same extension of file
         callback(null, file.fieldname + '-' + Date.now() + ".webp");  // change extension to webp 
