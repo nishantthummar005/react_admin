@@ -28,9 +28,9 @@ app.use('/api/team/', require('./routes/common/team'));
 app.use('/api/terms/', require('./routes/common/terms'));
 app.use('/api/video/', require('./routes/common/video'));
 
-app.get('/', (req, res) => {
-    res.send("Hello world")
-})
+// app.get('/', (req, res) => {
+//     res.send("Hello world")
+// })
 
 // set frontend app
 if (process.env.NODE_ENV === "production") {
