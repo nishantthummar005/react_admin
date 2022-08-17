@@ -35,10 +35,10 @@ app.use('/api/video/', require('./routes/common/video'));
 // set frontend app
 if (process.env.NODE_ENV === "production") {
     app.use(express.static("authorize/build/"))
-    const path = require("path");
-    app.get("*", (req, res) => {
-        res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
-    })
+    // const path = require("path");
+    // app.get("*", (req, res) => {
+    //     res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
+    // })
 }
 
 app.listen(port, () => {
