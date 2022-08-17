@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Aboutus = require('../../models/common/Aboutus');
+const Aboutus = require('../../models/common/aboutus');
 const { body, validationResult } = require('express-validator');
 const admindata = require("../../middleware/admindata");
 
